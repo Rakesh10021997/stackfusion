@@ -1,5 +1,8 @@
 
 web: gunicorn testapp.wsgi:application --log-file - 
 python manage.py collectstatic --noinput
-python manage.py migrate
+release: python manage.py migrate --no-input
+
+
+
 
