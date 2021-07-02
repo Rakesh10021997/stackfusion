@@ -26,7 +26,7 @@ SECRET_KEY = 'pwj(@te22xpt5o*veo#7=$-co7*u8$0m6r@=8lnvym_dumse&b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*','127.0.0.1','stackfusionrakeshy.herokuapp.com']
+ALLOWED_HOSTS = ['*','127.0.0.1','stackfusionrakeshya.herokuapp.com/']
 
 
 # Application definition
