@@ -1,2 +1,2 @@
-web: gunicorn testapp.wsgi --log-file -
+web: gunicorn stackfusion.wsgi --log-file -
 
