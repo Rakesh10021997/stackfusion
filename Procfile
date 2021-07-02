@@ -1,1 +1,5 @@
-web: gunicorn CCMS.wsgi --log-file -
+
+web: gunicorn testapp.wsgi:application --log-file - 
+python manage.py collectstatic --noinput
+manage.py migrate
+
